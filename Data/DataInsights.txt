@@ -1,1 +1,22 @@
 
+Data columns (total 14 columns):
+
+ #     Column    Explanation                                                     Dtype  
+---    ------    -----------                                                     -----  
+ 0     age       age                                                             int64  
+ 1     sex       sex                                                             int64  
+ 2     cp        chest pain type                                                 int64  
+ 3     trestbps  resting blood pressure                                          int64  
+ 4     chol      serum cholestoral (mg/dl)                                       int64  
+ 5     fbs       fasting blood sugar (>120 mg/dl)                                int64  
+ 6     restecg   resting electrocardiographic results (values 0,1,2)             int64  
+ 7     thalach   maximum heart rate achieved                                     int64  
+ 8     exang     excercise induced anggina                                       int64  
+ 9     oldpeak   oldpeak = ST depression induced by excercise relative to rest   float64
+ 10    slope     the slope of the peak excercise ST segment                      int64  
+ 11    ca        number of major vessels (0-3) colored by flourosopy             int64  
+ 12    thal      thal: 0 = normal, 1 = fixed defect, 2 = reversable defect       int64  
+ 13    target    1025 non-null                                                   int64  
+
+Data Type: 
+float64(1), int64(13)
